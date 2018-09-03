@@ -4,6 +4,17 @@ p {
 b {
 color: blue;
 }
-.istiyak {
+.red {
   background: red;
+}
+
+
+div {
+  color: blue;
+}
+span {
+  color: red;
+}
+b {
+  font-weight: bolder;
 }
