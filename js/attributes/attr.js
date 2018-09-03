@@ -13,13 +13,13 @@ $(document).ready(function(){
 
         // Set attribute and value using a function
         $(".down-button").click(function(){
-            $("#greatphoto").attr("width", function(n, v){
+            $(".first").attr("width", function(n, v){
                 return v - 50;
             });
         });
 
         $(".up-button").click(function(){
-            $("#greatphoto").attr("width", function(n, v){
+            $(".first").attr("width", function(n, v){
                 return parseInt(v) + 50;
             });
         });
